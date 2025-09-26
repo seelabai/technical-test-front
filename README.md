@@ -30,6 +30,7 @@ On Trash icon hover:
 - [**@vueuse/core**](https://vueuse.org/core) with useInfiniteScroll function
 - **Vite** (recommended tooling)
 
+In option you can use [Pinia Store](https://pinia.vuejs.org/introduction.html) 
 
 ---
 
