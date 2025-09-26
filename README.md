@@ -2,6 +2,10 @@
 Create a small Vue 3 application that displays a list of **500 items** generated before the component is rendered. 
 The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
 
+<p align="center">
+  <img width="500" height="2048" alt="image" src="https://github.com/user-attachments/assets/b9d159d7-498e-4a04-9e98-b04673c2c7b0" />
+</p>
+
 **One item contains:**
  - One ID
  - One image (image of your choice)
@@ -16,7 +20,7 @@ The list must support **infinite scroll** (50 items per 50) and follow the provi
 
 🔹On item hover set new properties with Tailwind:
  - Borders color change
- - Background color chnage
+ - Background color change
 
 🔹On Trash icon hover set new property with Tailwind:
  - Change color to red 
@@ -27,11 +31,11 @@ The list must support **infinite scroll** (50 items per 50) and follow the provi
 ---
 
 ## 🧰 Tech Stack
-- **Require Node 22.0**
+- **Require Node 22.20**
 - [**Vue 3** (Composition API)](https://vuejs.org/guide/introduction.html) 
 - **TypeScript**
 - [**Tailwind CSS 4.1**](https://tailwindcss.com/)
-- [**@vueuse/core**](https://vueuse.org/core) with useInfiniteScroll function
+- [**@vueuse/core**](https://vueuse.org/guide/) with useInfiniteScroll function
 - **Vite** (recommended tooling)
   
 In option you can use [Pinia Store](https://pinia.vuejs.org/introduction.html) 
