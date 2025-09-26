@@ -1,64 +1,64 @@
-# .
+## 🎯 Objective
+Create a small Vue 3 application that displays a list of **500 items** generated before the component is rendered. The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
 
-This template should help get you started developing with Vue 3 in Vite.
+**One item contains:**
+ - One ID
+ - One image (image of your choice)
+ - One title
+ - One description
 
-## Recommended IDE Setup
+**Bonus (if time allows):**
+- Add a **text filter** field to search items (by title and description)
+- Allow **deleting an item** -> Add Trash icon from Lucide library
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Expected behaviour:**
 
-## Type Support for `.vue` Imports in TS
+On item hover set new properties:
+- Borders color change
+- Background color chnage
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+On Trash icon hover:
+- Change color to red 
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🧰 Tech Stack
+- **Require Node 22.0**
+- [**Vue 3** (Composition API)](https://vuejs.org/guide/introduction.html) 
+- **TypeScript**
+- [**Tailwind CSS 4.1**](https://tailwindcss.com/)
+- [**@vueuse/core**](https://vueuse.org/core) with useInfiniteScroll function
+- **Vite** (recommended tooling)
 
-## Project Setup
+In option you can use [Pinia Store](https://pinia.vuejs.org/introduction.html) 
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 📐 Figma Mockups
+Use the Figma link for layout guidelines:
+- [Figma Link](https://www.figma.com/design/0DdGsqvvqQ9WCdYR1dYoJZ/Exercice-Seelab-Dev?node-id=1-327&t=eiDTQSnkNf5EUreb-4)
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-org/vue3-frontend-tech-test.git
+   cd vue3-frontend-tech-test
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser at `http://localhost:5173/` (or the port shown in your terminal).
 
-```sh
-npm run build
-```
+---
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+## 📦 Build for Production
+```bash
+npm run build && npm run preview
 ```
