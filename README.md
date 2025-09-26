@@ -1,5 +1,5 @@
 ## 🎯 Objective
-Create a small Vue 3 application that displays a list of **500 items** generated before the parent component is rendered. The list must support **infinite scroll** and follow the provided Figma mockups.
+Create a small Vue 3 application that displays a list of **500 items** generated before the parent component is rendered. The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
 
 **Bonus (if time allows):**
 - Add a **text filter** field to search items
