@@ -1,5 +1,6 @@
 ## 🎯 Objective
-Create a small Vue 3 application that displays a list of **500 items** generated before the component is rendered. The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
+Create a small Vue 3 application that displays a list of **500 items** generated before the component is rendered. 
+The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
 
 **One item contains:**
  - One ID
@@ -13,12 +14,15 @@ Create a small Vue 3 application that displays a list of **500 items** generated
 
 **Expected behaviour:**
 
-On item hover set new properties:
-- Borders color change
-- Background color chnage
+🔹On item hover set new properties with Tailwind:
+ - Borders color change
+ - Background color chnage
 
-On Trash icon hover:
-- Change color to red 
+🔹On Trash icon hover set new property with Tailwind:
+ - Change color to red 
+
+🔹Load next items page when scroll arrived to bottom 
+
 
 ---
 
