@@ -1,24 +1,41 @@
 ## 🎯 Objective
-Create a small Vue 3 application that displays a list of **500 items** generated before the parent component is rendered. The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
+Create a small Vue 3 application that displays a list of **500 items** generated before the component is rendered. The list must support **infinite scroll** (50 items per 50) and follow the provided Figma mockups.
+
+**One item contains:**
+ - One ID
+ - One image (image of your choice)
+ - One title
+ - One description
 
 **Bonus (if time allows):**
-- Add a **text filter** field to search items
-- Allow **deleting an item**
+- Add a **text filter** field to search items (by title and description)
+- Allow **deleting an item** -> Add Trash icon from Lucide library
+
+**Expected behaviour:**
+
+On item hover set new properties:
+- Borders color change
+- Background color chnage
+
+On Trash icon hover:
+- Change color to red 
 
 ---
 
 ## 🧰 Tech Stack
-- **Vue 3** (Composition API)
+- **Require Node 22.0**
+- [**Vue 3** (Composition API)](https://vuejs.org/guide/introduction.html) 
 - **TypeScript**
-- **Tailwind CSS 4.1**
-- **@vueuse/core**
+- [**Tailwind CSS 4.1**](https://tailwindcss.com/)
+- [**@vueuse/core**](https://vueuse.org/core) with useInfiniteScroll function
 - **Vite** (recommended tooling)
+
 
 ---
 
 ## 📐 Figma Mockups
 Use the Figma link for layout guidelines:
-- [Figma Link](https://www.figma.com/file/REPLACE_WITH_YOUR_LINK)
+- [Figma Link](https://www.figma.com/design/0DdGsqvvqQ9WCdYR1dYoJZ/Exercice-Seelab-Dev?node-id=1-327&t=eiDTQSnkNf5EUreb-4)
 
 ---
 
