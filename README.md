@@ -29,8 +29,10 @@ On Trash icon hover:
 - [**Tailwind CSS 4.1**](https://tailwindcss.com/)
 - [**@vueuse/core**](https://vueuse.org/core) with useInfiniteScroll function
 - **Vite** (recommended tooling)
-
+  
 In option you can use [Pinia Store](https://pinia.vuejs.org/introduction.html) 
+
+⚠ ***All packages are already installed***
 
 ---
 
